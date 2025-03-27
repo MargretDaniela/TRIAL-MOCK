@@ -1,4 +1,4 @@
-body{
+/* body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -24,4 +24,19 @@ button {
 
 button:hover {
     background-color: darkred;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#tasklist{
+    list-style-type: none;
+    padding: 0;
+}
+.taskitem{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid black;
+    margin: 5px;
 }
